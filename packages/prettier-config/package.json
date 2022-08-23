@@ -1,0 +1,11 @@
+{
+    "name": "@toolkit/prettier-config",
+    "version": "1.0.0",
+    "description": "Shareable Prettier Config",
+    "main": "index.json",
+    "author": "Georg Maximilian Franszkewitz <mx@mxeff.dev> (https://mxeff.dev)",
+    "license": "ISC",
+    "peerDependencies": {
+        "prettier": ">= 2"
+    }
+}
