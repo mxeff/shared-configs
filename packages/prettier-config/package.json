@@ -1,5 +1,5 @@
 {
-    "name": "@toolkit/prettier-config",
+    "name": "@mxeff/prettier-config",
     "version": "1.0.0",
     "description": "Shareable Prettier Config",
     "main": "index.json",

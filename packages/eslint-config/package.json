@@ -1,5 +1,5 @@
 {
-    "name": "@toolkit/eslint-config",
+    "name": "@mxeff/eslint-config",
     "version": "1.0.0",
     "description": "Shareable ESLint Config",
     "main": "index.js",
