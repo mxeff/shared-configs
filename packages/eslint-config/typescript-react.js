@@ -3,7 +3,6 @@ module.exports = {
         browser: true,
     },
     extends: [
-        './base-typescript',
         'eslint:recommended',
         'plugin:react/recommended',
         'plugin:@typescript-eslint/recommended',
@@ -14,4 +13,20 @@ module.exports = {
         'plugin:prettier/recommended',
     ],
     plugins: ['react'],
+    rules: {
+        '@typescript-eslint/consistent-type-imports': 'error',
+        'import/order': [
+            'error',
+            {
+                alphabetize: {
+                    order: 'asc',
+                },
+            },
+        ],
+    },
+    settings: {
+        'import/resolver': {
+            typescript: true,
+        },
+    },
 };

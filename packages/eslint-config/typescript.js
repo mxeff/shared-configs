@@ -9,4 +9,20 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:prettier/recommended',
     ],
+    rules: {
+        '@typescript-eslint/consistent-type-imports': 'error',
+        'import/order': [
+            'error',
+            {
+                alphabetize: {
+                    order: 'asc',
+                },
+            },
+        ],
+    },
+    settings: {
+        'import/resolver': {
+            typescript: true,
+        },
+    },
 };
